@@ -1,0 +1,9 @@
+from sklearn import cluster
+
+class SCAR:
+    def __init__(self):
+        pass
+
+    def _cluster_training(self):
+        k_means = cluster.KMeans(
+        self.X
